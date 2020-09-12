@@ -2,7 +2,6 @@ console.log('--------------------------------------')
 console.log('     Projeto Carrinho de Compras     ')
 console.log('--------------------------------------')
 
-
 const db = require('./database')
 const readline = require("readline-sync")
 const {
@@ -56,3 +55,5 @@ console.table(procurarProduto())
 console.log(`Subtotal: R$ ${ calcularSubtotal() }`)
 console.log(`Total: R$ ${ calcularTotal() }`)
 console.log('*****************')
+
+
